@@ -21,6 +21,10 @@ app.post('/api/notify', async (req, res) => {
     await client.connect();
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
+    const exists = await collection.findOne({ email });
+    if (exists) {
+      return res.status(409).json({ error: 'Email already exists' });
+    }
     await collection.insertOne({ email, createdAt: new Date() });
     res.json({ success: true });
   } catch (err) {

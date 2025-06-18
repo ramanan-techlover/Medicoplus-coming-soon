@@ -54,6 +54,10 @@ export default function CountdownNotifyCard() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
       });
+      if (res.status === 409) {
+        setError('This email has already joined.');
+        return;
+      }
       if (!res.ok) throw new Error('Failed to save email');
       setSubmitted(true);
       setSuccess('You will be notified!');
