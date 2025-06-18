@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section className="w-full max-w-xl md:max-w-2xl text-center md:text-left animate-fade-in-up z-10">
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white mb-4 sm:mb-6 md:mb-8 drop-shadow-lg">
-        Healthcare.<br />
+        Healthcare<br />
         <span className=" text-gray-300">Reimagined.</span>
       </h1>
       <p className="text-base sm:text-lg md:text-2xl text-white mb-4 sm:mb-6 md:mb-10 font-semibold drop-shadow">

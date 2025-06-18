@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M12 2L2 7h20L12 2z"/>
-  <path d="M2 7v10l10 5 10-5V7z"/>
-  <path d="M12 12v6"/>
-  <path d="M9 12h6"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+<path d="M0 0 C5.28 0 10.56 0 16 0 C16 5.28 16 10.56 16 16 C10.72 16 5.44 16 0 16 C0 10.72 0 5.44 0 0 Z " fill="#FCFDFE" transform="translate(0,0)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 1.65 5 3.3 5 5 C4.01 5.33 3.02 5.66 2 6 C2 7.32 2 8.64 2 10 C2.99 10.66 3.98 11.32 5 12 C3.35 12 1.7 12 0 12 C0 11.01 0 10.02 0 9 C-1.32 8.67 -2.64 8.34 -4 8 C-4 6.68 -4 5.36 -4 4 C-2.68 4 -1.36 4 0 4 C0 2.68 0 1.36 0 0 Z " fill="#5C96F7" transform="translate(5,2)"/>
+<path d="M0 0 C1.5625 1.625 1.5625 1.625 3 4 C2.77962372 7.67293796 2.63033454 9.36966546 0 12 C-1.32 11.34 -2.64 10.68 -4 10 C-3.67 8.35 -3.34 6.7 -3 5 C-2.01 5 -1.02 5 0 5 C0 3.35 0 1.7 0 0 Z " fill="#DDE7FD" transform="translate(10,2)"/>
 </svg>

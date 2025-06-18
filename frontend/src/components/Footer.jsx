@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Socials far left */}
       <div className="flex gap-3 order-1 sm:order-none">
         <a
-          href="#"
+          href="https://wa.me/918903137541"
           aria-label="WhatsApp"
           className="w-8 h-8 bg-mp-blue-light/60 rounded-full flex items-center justify-center text-white shadow hover:bg-white/30 transition"
         >
