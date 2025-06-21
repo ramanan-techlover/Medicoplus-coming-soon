@@ -49,7 +49,7 @@ export default function CountdownNotifyCard() {
     setError('');
     setSuccess('');
     try {
-      const res = await fetch('https://medicoplus-coming-soon.onrender.com/api/notify', {
+      const res = await fetch('https://medicopluscare.com/api/notify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

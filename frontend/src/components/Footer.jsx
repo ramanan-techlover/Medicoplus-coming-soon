@@ -9,6 +9,8 @@ export default function Footer() {
           href="https://wa.me/918903137541"
           aria-label="WhatsApp"
           className="w-8 h-8 bg-mp-blue-light/60 rounded-full flex items-center justify-center text-white shadow hover:bg-white/30 transition"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* WhatsApp Icon */}
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24">
@@ -19,9 +21,11 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="#"
+          href="https://instagram.com/medicoplus"
           aria-label="Instagram"
           className="w-8 h-8 bg-mp-blue-light/60 rounded-full flex items-center justify-center text-white shadow hover:bg-white/30 transition"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* Instagram Icon */}
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24">
@@ -39,9 +43,11 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="#"
+          href="https://linkedin.com/company/medicoplus"
           aria-label="LinkedIn"
           className="w-8 h-8 bg-mp-blue-light/60 rounded-full flex items-center justify-center text-white shadow hover:bg-white/30 transition"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {/* LinkedIn Icon */}
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24">
@@ -81,9 +87,12 @@ export default function Footer() {
         © MedicoPlus
       </div>
       {/* Contact far right */}
-      <div className="text-sm text-white/90 font-medium order-2 sm:order-none">
-        contact@medicoplus.com
-      </div>
+      <a
+        href="mailto:contact@medicopluscare.com"
+        className="text-sm text-white/90 font-medium order-2 sm:order-none hover:underline"
+      >
+        contact@medicopluscare.com
+      </a>
     </footer>
   );
 }

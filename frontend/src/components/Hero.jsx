@@ -15,11 +15,11 @@ export default function Hero() {
   return (
     <section className="w-full max-w-xl md:max-w-2xl text-center md:text-left animate-fade-in-up z-10">
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white mb-4 sm:mb-6 md:mb-8 drop-shadow-lg">
-        Healthcare<br />
-        <span className=" text-gray-300">Reimagined.</span>
+        Healthcare,<br />
+        <span className=" text-gray-300">Reinvented.</span>
       </h1>
       <p className="text-base sm:text-lg md:text-2xl text-white mb-4 sm:mb-6 md:mb-10 font-semibold drop-shadow">
-        MedicoPlus is launching soon to make healthcare <span className="text-amber-200 font-bold">smarter</span>, <span className="text-mp-blue-dark font-bold">accessible</span>, and deeply <span className="font-bold text-amber-100">human</span>.
+        MedicoPlus is launching soon to make healthcare <span className="text-grey-200 font-bold">smarter</span>, <span className="text-grey-200 font-bold">accessible</span>, and deeply <span className="font-bold text-grey-200">human</span>.
       </p>
       <div className="w-full bg-white/90 border border-mp-blue-light rounded-2xl p-3 sm:p-6 mb-4 sm:mb-8 backdrop-blur-glass shadow-lg">
         <blockquote className="italic text-mp-blue-dark text-sm sm:text-lg md:text-xl text-center md:text-left">
